@@ -1,0 +1,79 @@
+* {
+    margin:0; padding:0;
+  }
+
+  body {
+    background-image: url("BackGround.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .AllWrapper h1,h2{
+    font-family: 'Agency FB','Arial', monospace;
+    letter-spacing: 5px;
+    margin:60px 0;
+    text-align: center;
+  }  
+
+  .AllWrapper h1{
+    font-size: 45px;
+    margin:70px 0;
+  }
+
+  header {
+    height: 300px;              
+    width: auto; 
+    display: flex;
+    background-image: linear-gradient(45deg, rgb(153, 153, 153), rgba(0, 0, 0, 1));
+  }
+
+  /*--Title--*/
+  .Title{
+    font-size: 50px;
+    font-family: 'Agency FB','Arial', monospace;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    letter-spacing: 15px;
+  }
+
+  /*--Contents--*/
+  .Content__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .Contents__block-img{
+    display: flex;
+    align-items: center;
+    margin: 30px 30px;
+  }
+
+  .Contents__block-text{
+    margin: 0 50px;
+  }
+
+  .Contents__block-img img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    border-radius: 5%;
+    transition: filter 0.5s;
+  }
+
+  .Contents__block-img img:hover{
+    filter: grayscale(0%);
+  }
+
+
+
+  
+
+
+
+ 
