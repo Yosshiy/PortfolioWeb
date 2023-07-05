@@ -9,6 +9,8 @@
     background-position: center;
   }
 
+  /*--AllWrapper>>Start*/
+  /*ページ書式設定*/
   .AllWrapper h1,h2{
     font-family: 'Agency FB','Arial', monospace;
     letter-spacing: 5px;
@@ -16,10 +18,12 @@
     text-align: center;
   }  
 
+  /*見出し書式設定*/
   .AllWrapper h1{
     font-size: 45px;
     margin:70px 0;
   }
+  /*--AllWrapper>>End*/
 
   header {
     height: 300px;              
@@ -37,7 +41,7 @@
     letter-spacing: 15px;
   }
 
-  /*--Contents--*/
+  /*--Contents>>Start--*/
   .Content__block{
     display: flex;
     flex-direction: column;
@@ -46,16 +50,19 @@
     
   }
 
+  /*アイコンと説明文のブロック*/
   .Contents__block-img{
     display: flex;
     align-items: center;
     margin: 30px 30px;
   }
 
+  /*説明文*/
   .Contents__block-text{
     margin: 0 50px;
   }
 
+  /*アイコン*/
   .Contents__block-img img{
     display: block;
     width: 250px;
@@ -66,19 +73,35 @@
     transition: filter 0.5s;
   }
 
+  /*アイコン::カーソルのホバー*/
   .Contents__block-img img:hover{
     filter: grayscale(0%);
   }
+  /*--Contents>>End--*/
 
+
+  /*--AddMore>>Start--*/
+  /*summaryの書式*/
   summary {
     display: block;
     text-align: center;
     font-family: 'Agency FB','Arial', monospace;
-    margin:1px 0;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin:5px 0;
     font-size: 35px;
   }
 
+  /*アコーディオン内容文*/
   details h2{
     margin:20px 0;
     text-align: left;
   }
+  /*--AddMore>>End--*/
+
+
+  
+
+
+
+ 
