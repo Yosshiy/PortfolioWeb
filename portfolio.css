@@ -12,7 +12,7 @@
   /*--AllWrapper>>Start*/
   /*ページ書式設定*/
   .AllWrapper h1,h2{
-    font-family: 'Agency FB','Arial', monospace;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     letter-spacing: 5px;
     margin:60px 0;
     text-align: center;
@@ -41,7 +41,7 @@
   /*--Title--*/
   .Title{
     font-size: 50px;
-    font-family: 'Agency FB','Arial', monospace;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     color: rgb(255, 255, 255);
     margin: auto;
     letter-spacing: 15px;
@@ -91,16 +91,17 @@
   summary {
     display: block;
     text-align: center;
-    font-family: 'Agency FB','Arial', monospace;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-weight: bold;
     letter-spacing: 5px;
-    margin:5px 0;
-    font-size: 35px;
+    font-size: 35px;    
+    color: rgb(255, 104, 104);
+
   }
 
   /*アコーディオン内容文*/
   details h2{
-    margin:20px 0;
+    margin:25px 0;
     text-align: left;
   }
   /*--AddMore>>End--*/
@@ -110,5 +111,4 @@
 
 
 
- 
  
