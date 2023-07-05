@@ -70,10 +70,15 @@
     filter: grayscale(0%);
   }
 
+  summary {
+    display: block;
+    text-align: center;
+    font-family: 'Agency FB','Arial', monospace;
+    margin:1px 0;
+    font-size: 35px;
+  }
 
-
-  
-
-
-
- 
+  details h2{
+    margin:20px 0;
+    text-align: left;
+  }
