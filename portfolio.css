@@ -85,6 +85,14 @@
   }
   /*--Contents>>End--*/
 
+  .UnderClass img
+  {
+    width: 60%;
+    margin: auto;
+    display: block;
+    border-radius: 5%;
+  }
+
 
   /*--AddMore>>Start--*/
   /*summaryの書式*/
